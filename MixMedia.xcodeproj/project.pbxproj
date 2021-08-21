@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0BEDCD26839424002ECC76 /* VideoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0BEDCC26839424002ECC76 /* VideoHelper.swift */; };
 		DE7FF54C2682244C00852E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF54B2682244C00852E79 /* AppDelegate.swift */; };
 		DE7FF54E2682244C00852E79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF54D2682244C00852E79 /* SceneDelegate.swift */; };
 		DE7FF5502682244C00852E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7FF54F2682244C00852E79 /* ViewController.swift */; };
 		DE7FF5532682244C00852E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7FF5512682244C00852E79 /* Main.storyboard */; };
 		DE7FF5552682244D00852E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7FF5542682244D00852E79 /* Assets.xcassets */; };
 		DE7FF5582682244D00852E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7FF5562682244D00852E79 /* LaunchScreen.storyboard */; };
+		DE7FF565268229F700852E79 /* v2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DE7FF564268229F700852E79 /* v2.mp4 */; };
+		DE7FF56826823D1B00852E79 /* v1.mov in Resources */ = {isa = PBXBuildFile; fileRef = DE7FF56726823D1B00852E79 /* v1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE0BEDCC26839424002ECC76 /* VideoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHelper.swift; sourceTree = "<group>"; };
 		DE7FF5482682244C00852E79 /* MixMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixMedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7FF54B2682244C00852E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE7FF54D2682244C00852E79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		DE7FF5542682244D00852E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7FF5572682244D00852E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE7FF5592682244D00852E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7FF564268229F700852E79 /* v2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = v2.mp4; sourceTree = "<group>"; };
+		DE7FF56726823D1B00852E79 /* v1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = v1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE0BEDCB26839405002ECC76 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DE0BEDCC26839424002ECC76 /* VideoHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		DE7FF53F2682244B00852E79 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +70,9 @@
 		DE7FF54A2682244C00852E79 /* MixMedia */ = {
 			isa = PBXGroup;
 			children = (
+				DE7FF56726823D1B00852E79 /* v1.mov */,
+				DE7FF564268229F700852E79 /* v2.mp4 */,
+				DE0BEDCB26839405002ECC76 /* Helpers */,
 				DE7FF54B2682244C00852E79 /* AppDelegate.swift */,
 				DE7FF54D2682244C00852E79 /* SceneDelegate.swift */,
 				DE7FF54F2682244C00852E79 /* ViewController.swift */,
@@ -124,6 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7FF56826823D1B00852E79 /* v1.mov in Resources */,
+				DE7FF565268229F700852E79 /* v2.mp4 in Resources */,
 				DE7FF5582682244D00852E79 /* LaunchScreen.storyboard in Resources */,
 				DE7FF5552682244D00852E79 /* Assets.xcassets in Resources */,
 				DE7FF5532682244C00852E79 /* Main.storyboard in Resources */,
@@ -140,6 +159,7 @@
 				DE7FF5502682244C00852E79 /* ViewController.swift in Sources */,
 				DE7FF54C2682244C00852E79 /* AppDelegate.swift in Sources */,
 				DE7FF54E2682244C00852E79 /* SceneDelegate.swift in Sources */,
+				DE0BEDCD26839424002ECC76 /* VideoHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HV832JS9T;
 				INFOPLIST_FILE = MixMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HV832JS9T;
 				INFOPLIST_FILE = MixMedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

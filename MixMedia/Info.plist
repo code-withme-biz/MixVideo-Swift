@@ -62,5 +62,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>MixMedia would like to access to your Media Library.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>MixMedia would like to save to your Photo Library.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MixMedia would like to access to your Photo Library.</string>
 </dict>
 </plist>
